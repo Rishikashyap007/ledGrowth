@@ -20,14 +20,10 @@ const FAQ = () => {
           >
             <div className="accordion__question">
               <p>{faq.question}</p>
-              <span className="material-symbols-outlined">
-                {activeIndex === index ? "remove_circle" : "add_circle"}
-              </span>
             </div>
             <div className="accordion__answer">
               <p>{faq.answer}</p>
             </div>
-            <hr />
           </div>
         ))}
       </div>
